@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(media/pexels-kien-virak-4638114.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 29px;
+    font-family: Arial;
+    padding: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.logo::first-letter {
+    color: aliceblue;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 46px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.btn {
+    width: 100px;
+    padding: 12px;
+    background-color: #ff7200;
+    color: white;
+    border: 1px solid #ff7200;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    cursor: pointer;
+}
